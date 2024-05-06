@@ -15,6 +15,25 @@ keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
 KOMMA = KC.LSFT(KC.DOT)
 
+# BEAKL27-ish#
+#   WX DG
+# QHOU CMRV
+# YIEA STNB
+# J??K FLPZ
+
+# Colemak-ish #
+#   DG HM
+# QWFP JLUY
+# ARST NEIO
+# ZXCV KB,.
+
+# Workman-ish #
+#   BG YJ
+# QDRW FUP?
+# ASHT NEOI
+# ZXMC KLV?
+
+
 # Left hand
 L1K1 = KC.N1()
 L1K2 = KC.N1()
