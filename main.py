@@ -94,21 +94,20 @@ R4K3 = KC.W()
 LT11 = KC.N0()
 LT12 = KC.N0()
 LT21 = KC.N0()
-LT22 = KC.N0()
+LT22 = KC.SPACE()
 LT31 = KC.N0()
 LT32 = KC.N0()
 
 # Right thumb
 RT11 = KC.N9()
 RT12 = KC.N9()
-RT21 = KC.N9()
+RT21 = KC.SPACE()
 RT22 = KC.N9()
 RT31 = KC.N9()
 RT32 = KC.N9()
 
-
 keyboard.keymap = [[
-RT22, 	RT21, 	LT21, 	LT22, 	LT12, 	LT11, 	RT11, 	RT12,\
+RT21, 	RT22, 	LT22, 	LT21, 	LT12, 	LT11, 	RT11, 	RT12,\
 RT32, 	RT31, 	LT31, 	LT32, 	L2K4, 	L1K4, 	R2K4, 	R1K4,\
 R4K3, 	R3K3, 	L4K3, 	L3K3, 	L2K3, 	L1K3, 	R2K3, 	R1K3,\
 R4K2, 	R3K2, 	L4K2, 	L3K2, 	L2K2, 	L1K2, 	R2K2, 	R1K2,\
