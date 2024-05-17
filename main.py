@@ -13,6 +13,11 @@ keyboard.col_pins = (board.P0_31, board.P0_29, board.P0_02, board.P1_15, board.P
 keyboard.row_pins = (board.P0_24, board.P1_00, board.P0_11, board.P1_04, board.P1_06)
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
+AWE = KC.RALT(KC.W)
+AEH = KC.RALT(KC.Q)
+UHH = KC.RALT(KC.P)
+
+
 #	BEAKL27-ish#
 #	  WX DG
 #	QHOU CMRV
@@ -51,6 +56,18 @@ keyboard.diode_orientation = DiodeOrientation.COL2ROW
 #	Y	I	E	A		=		S	T	N	B
 #	J	,	.	K		=		M	D	P	V
 #===============================================
+
+keymapAlpha = [
+                    KC.Z,   KC.X,           KC.G,   KC.L,
+    KC.Q,   KC.H,   KC.O,   KC.U,           KC.C,   KC.R,   KC.F,   KC.W,
+    KC.Y,   KC.I,   KC.E,   KC.A,           KC.S,   KC.T,   KC.N,   KC.B,
+    KC.J,   KC.Q,   KC.Q,   KC.K,           KC.M,   KC.D,   KC.P,   KC.V,
+
+                    KC.Q,   KC.Q,           KC.Q,   KC.Q,
+                    KC.Q,   KC.Q,           KC.Q,   KC.Q,
+                    KC.Q,   KC.Q,           KC.Q,   KC.Q                
+    ]
+
 
 # Left hand
 L1K1 = KC.K()
