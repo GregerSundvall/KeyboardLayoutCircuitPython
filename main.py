@@ -3,19 +3,20 @@ from kmk.kmk_keyboard import KMKKeyboard
 from kmk.scanners import DiodeOrientation
 from kmk.keys import KC
 from kmk.extensions.international import International
-
+from kmk.modules.combos import Combos, Chord, Sequence
 
 
 keyboard = KMKKeyboard()
 keyboard.extensions.append(International())
+combos = Combos()
+keyboard.modules.append(combos)
+
 
 keyboard.col_pins = (board.P0_31, board.P0_29, board.P0_02, board.P1_15, board.P1_13, board.P1_11, board.P0_10, board.P0_09)
 keyboard.row_pins = (board.P0_24, board.P1_00, board.P0_11, board.P1_04, board.P1_06)
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
-AWE = KC.RALT(KC.W)
-AEH = KC.RALT(KC.Q)
-UHH = KC.RALT(KC.P)
+
 
 
 #	BEAKL27-ish#
@@ -57,6 +58,13 @@ UHH = KC.RALT(KC.P)
 #	J	,	.	K		=		M	D	P	V
 #===============================================
 
+AWE = KC.RALT(KC.W)
+AEH = KC.RALT(KC.Q)
+UHH = KC.RALT(KC.P)
+
+combos.combos = [Chord((AWE, AEH), UHH)]
+
+
 map1 = [
                     KC.Z,   KC.X,           KC.G,   KC.L,
     KC.Q,   KC.H,   KC.O,   KC.U,           KC.C,   KC.R,   KC.F,   KC.W,
@@ -66,7 +74,7 @@ map1 = [
                 KC.BSPC,    KC.Q,           KC.Q,       KC.TAB,
                 KC.SPC,     KC.ESC,         KC.COMM,    KC.DOT,
                 KC.DEL,     KC.Q,           KC.Q,       KC.ENT                
-    ]
+]
 
 
 
