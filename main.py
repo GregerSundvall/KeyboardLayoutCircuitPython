@@ -63,9 +63,9 @@ map1 = [
     KC.Y,   KC.I,   KC.E,   KC.A,           KC.S,   KC.T,   KC.N,   KC.B,
     KC.J,   AEH,    AWE,    KC.K,           KC.M,   KC.D,   KC.P,   KC.V,
 
-                    KC.Q,   KC.Q,           KC.Q,   KC.Q,
-                    KC.Q,   KC.Q,           KC.Q,   KC.Q,
-                    KC.Q,   KC.Q,           KC.Q,   KC.Q                
+                KC.BSPC,    KC.Q,           KC.Q,       KC.TAB,
+                KC.SPC,     KC.ESC,         KC.COMM,    KC.DOT,
+                KC.DEL,     KC.Q,           KC.Q,       KC.ENT                
     ]
 
 
