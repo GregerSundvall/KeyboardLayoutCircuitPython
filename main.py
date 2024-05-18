@@ -57,11 +57,11 @@ UHH = KC.RALT(KC.P)
 #	J	,	.	K		=		M	D	P	V
 #===============================================
 
-keymapAlpha = [
+map1 = [
                     KC.Z,   KC.X,           KC.G,   KC.L,
     KC.Q,   KC.H,   KC.O,   KC.U,           KC.C,   KC.R,   KC.F,   KC.W,
     KC.Y,   KC.I,   KC.E,   KC.A,           KC.S,   KC.T,   KC.N,   KC.B,
-    KC.J,   KC.Q,   KC.Q,   KC.K,           KC.M,   KC.D,   KC.P,   KC.V,
+    KC.J,   AEH,    AWE,    KC.K,           KC.M,   KC.D,   KC.P,   KC.V,
 
                     KC.Q,   KC.Q,           KC.Q,   KC.Q,
                     KC.Q,   KC.Q,           KC.Q,   KC.Q,
@@ -69,66 +69,13 @@ keymapAlpha = [
     ]
 
 
-# Left hand
-L1K1 = KC.K()
-L1K2 = KC.A()
-L1K3 = KC.U()
-L1K4 = KC.X()
-
-L2K1 = KC.DOT()
-L2K2 = KC.E()
-L2K3 = KC.O()
-L2K4 = KC.Z()
-
-L3K1 = KC.COMMA()
-L3K2 = KC.I()
-L3K3 = KC.H()
-
-L4K1 = KC.J()
-L4K2 = KC.Y()
-L4K3 = KC.Q()
-
-# Right hand
-R1K1 = KC.M()
-R1K2 = KC.S()
-R1K3 = KC.C()
-R1K4 = KC.G()
-
-R2K1 = KC.D()
-R2K2 = KC.T()
-R2K3 = KC.R()
-R2K4 = KC.L()
-
-R3K1 = KC.P()
-R3K2 = KC.N()
-R3K3 = KC.F()
-
-R4K1 = KC.V()
-R4K2 = KC.B()
-R4K3 = KC.W()
-
-# Left thumb
-LT11 = KC.N0()
-LT12 = KC.N0()
-LT21 = KC.N0()
-LT22 = KC.SPACE()
-LT31 = KC.N0()
-LT32 = KC.N0()
-
-# Right thumb
-RT11 = KC.N9()
-RT12 = KC.N9()
-RT21 = KC.SPACE()
-RT22 = KC.N9()
-RT31 = KC.N9()
-RT32 = KC.N9()
 
 keyboard.keymap = [[
-RT21, 	RT22, 	LT22, 	LT21, 	LT12, 	LT11, 	RT11, 	RT12,\
-RT32, 	RT31, 	LT31, 	LT32, 	L2K4, 	L1K4, 	R2K4, 	R1K4,\
-R4K3, 	R3K3, 	L4K3, 	L3K3, 	L2K3, 	L1K3, 	R2K3, 	R1K3,\
-R4K2, 	R3K2, 	L4K2, 	L3K2, 	L2K2, 	L1K2, 	R2K2, 	R1K2,\
-R4K1, 	R3K1, 	L4K1, 	L3K1, 	L2K1, 	L1K1, 	R2K1, 	R1K1, ],]
+map1[35], 	map1[34], 	map1[33], 	map1[32], 	map1[29],   map1[28], 	map1[30], 	map1[31],\
+map1[39], 	map1[38], 	map1[36], 	map1[37], 	map1[0],	map1[1], 	map1[3], 	map1[2],\
+map1[11], 	map1[10], 	map1[4], 	map1[5], 	map1[6], 	map1[7], 	map1[9], 	map1[8],\
+map1[19], 	map1[18], 	map1[12], 	map1[13], 	map1[14], 	map1[15], 	map1[17], 	map1[16],\
+map1[27], 	map1[26], 	map1[20], 	map1[21], 	map1[22], 	map1[23], 	map1[25], 	map1[24], ],]
 
 if __name__ == '__main__':
 	keyboard.go()
