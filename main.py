@@ -79,7 +79,7 @@ map1 = [
 
 
 keyboard.keymap = [[
-map1[35], 	map1[34], 	map1[33], 	map1[32], 	map1[29],   map1[28], 	map1[30], 	map1[31],\
+map1[35], 	map1[34], 	map1[32], 	map1[33], 	map1[29],   map1[28], 	map1[30], 	map1[31],\
 map1[39], 	map1[38], 	map1[36], 	map1[37], 	map1[0],	map1[1], 	map1[3], 	map1[2],\
 map1[11], 	map1[10], 	map1[4], 	map1[5], 	map1[6], 	map1[7], 	map1[9], 	map1[8],\
 map1[19], 	map1[18], 	map1[12], 	map1[13], 	map1[14], 	map1[15], 	map1[17], 	map1[16],\
