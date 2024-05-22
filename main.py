@@ -72,7 +72,7 @@ map1 = [
     KC.J,   AEH,    AWE,    KC.K,           KC.M,   KC.D,   KC.P,   KC.V,
 
                 KC.BSPC,    KC.Q,           KC.Q,       KC.TAB,
-                KC.SPC,     KC.ESC,         KC.COMM,    KC.DOT,
+                KC.DOT,     KC.ESC,         KC.COMM,    KC.SPC,
                 KC.DEL,     KC.Q,           KC.Q,       KC.ENT                
 ]
 
